@@ -1,0 +1,86 @@
+.frequently-asked-questions {
+  width: 390px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.subtitle-questions {
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  width: 335px;
+}
+
+.button-view_testimonials {
+  width: 170px;
+  height: 49px;
+  padding: 14px 20px;
+  border: 1px solid rgb(38, 38, 38);
+  border-radius: 8px;
+  background: rgb(26, 26, 26);
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.button-view_testimonials::after {
+  content: " ";
+  display: block;
+  width: 355px;
+  height: 1px;
+  background-color: rgb(38, 38, 38);
+  position: relative;
+  top: -50px;
+  right: 18px;
+}
+
+.slider-comment {
+  column-gap: 33px;
+}
+
+.box-questions {
+  padding: 30px;
+  margin-top: 40px;
+  width: 358px;
+  height: 242px;
+  border: 1px solid rgb(38, 38, 38);
+  border-radius: 10px;
+  background: rgb(20, 20, 20);
+}
+
+.title-box {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.subtitle-box {
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  width: 275px;
+  margin-top: 20px;
+}
+
+.btn-box {
+  margin-top: 20px;
+  border: 1px solid rgb(38, 38, 38);
+  border-radius: 8px;
+  padding: 14px 20px;
+  width: 298px;
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 131%;
+  height: 46px;
+  background: rgb(26, 26, 26);
+}

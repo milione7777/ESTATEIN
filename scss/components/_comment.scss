@@ -1,0 +1,85 @@
+.comments {
+  margin: 0 auto;
+  width: 390px;
+  margin-top: 70px;
+}
+
+.title-comment {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.subtitle-comment {
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  margin-top: 6px;
+}
+
+.comment {
+  padding: 30px;
+  border: 1px solid rgb(38, 38, 38);
+  border-radius: 10px;
+  width: 358px;
+  height: 305px;
+  background: rgb(20, 20, 20);
+  margin-top: 40px;
+}
+
+.img-star {
+  width: 30px;
+  height: 30px;
+}
+
+.img-star + .img-star {
+  margin-left: 6px;
+}
+.title-comments {
+  margin-top: 24px;
+  margin-bottom: 6px;
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.subtitle-comments {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  width: 280px;
+}
+
+.img-user {
+  width: 50px;
+  height: 50px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  column-gap: 10px;
+}
+
+.name-user {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.location-user {
+  color: rgb(153, 153, 153);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+}

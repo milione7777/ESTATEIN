@@ -1,0 +1,41 @@
+.banner {
+  position: relative;
+  background-image: url(/img/desktop-img/Banner-mobile.png);
+  width: 390px;
+  height: 78px;
+  display: flex;
+  margin: 0 auto;
+  column-gap: 6px;
+  align-items: center;
+}
+
+.title-banner {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 150%;
+  margin-left: 16px;
+}
+
+.link-banner {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 150%;
+  text-align: center;
+   text-decoration: underline;
+}
+
+.btn-close-banner {
+  position: absolute;
+  right: 16px;
+  border-radius: 75px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  width: 26px;
+  height: 26px;
+  align-items: center;
+  padding: 4px;
+}

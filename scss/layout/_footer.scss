@@ -1,0 +1,169 @@
+.footer {
+  margin: 0 auto;
+  width: 390px;
+  margin-top: 50px;
+}
+
+.footer-logo {
+  width: 113px;
+  height: 34px;
+}
+
+.input-email {
+  position: relative;
+  margin-top: 20px;
+  border: 1px solid rgb(38, 38, 38);
+  border-radius: 8px;
+  background: transparent;
+  width: 357px;
+  height: 52px;
+  padding-left: 46px;
+}
+
+.list-logo-footer {
+  height: 125px;
+}
+
+.list-logo-footer::after {
+  content: " ";
+  width: 1px;
+  height: 252px;
+  background-color: rgb(38, 38, 38);
+  display: block;
+  position: relative;
+  top: 280px;
+  right: -178px;
+}
+
+.footer-item {
+  position: relative;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.icon-email {
+  position: absolute;
+  top: 38px;
+  left: 22px;
+}
+
+.icon-telega {
+  position: absolute;
+  top: 38px;
+  right: 22px;
+}
+
+.icon-email::placeholder {
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.title-content {
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 16px;
+  margin-top: 40px;
+}
+
+.list-content-footer {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 120px;
+  height: 550px;
+}
+
+.list-content-footer::after {
+  content: " ";
+  width: 1px;
+  height: 212px;
+  background-color: rgb(38, 38, 38);
+  display: block;
+  position: relative;
+  top: -442px;
+  right: 20px;
+}
+
+.properties {
+  height: 120px;
+}
+
+.item-content {
+  width: 78px;
+}
+
+.item-content::after {
+  content: " ";
+  width: 160px;
+  height: 1px;
+  background-color: rgb(38, 38, 38);
+  display: block;
+  position: relative;
+  top: -50px;
+  top: 20px;
+}
+
+.content-text {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 8px;
+  width: 130px;
+}
+
+.contact-us {
+  height: 210px;
+  margin-top: -100px;
+}
+
+.subfooter {
+  margin-top: 50px;
+  width: 389px;
+  height: 178px;
+  background: rgb(26, 26, 26);
+  padding: 20px 0;
+}
+
+.network-svg {
+  width: 60px;
+  height: 60px;
+  border-radius: 58px;
+  background: rgb(20, 20, 20);
+  border: none;
+}
+
+.item-network {
+  width: 275px;
+  margin: 0 auto;
+}
+
+.network-svg + .network-svg {
+  margin-left: 8px;
+}
+
+.all-rights {
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.terms {
+  margin-top: 10px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}

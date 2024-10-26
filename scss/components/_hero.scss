@@ -1,0 +1,123 @@
+.hero {
+  width: 390px;
+  margin: 0 auto;
+}
+
+.hero-list {
+  margin-top: 40px;
+}
+
+.border {
+  position: relative;
+  top: -80px;
+  width: 117px;
+  height: 117px;
+  background-image: url(/img/desktop-img/border-mobile.png);
+}
+
+.border-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  border: 2px solid rgb(38, 38, 38);
+  border-radius: 50%;
+  background: rgb(26, 26, 26);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-hero {
+  margin-top: -55px;
+  margin-bottom: 16px;
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.subtitle-hero {
+  width: 350px;
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.button-hero {
+  width: 358px;
+  height: 49px;
+  margin-top: 40px;
+  border: 1px solid rgb(38, 38, 38);
+  border-radius: 8px;
+  background-color: unset;
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  margin-bottom: 16px;
+}
+
+.btn-hero {
+  width: 358px;
+  height: 49px;
+  border-radius: 8px;
+  background: rgb(112, 59, 247);
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.card-hero {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.title-card-hero {
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 150%;
+  text-align: center;
+}
+
+.subtitle-card-hero {
+  color: rgb(153, 153, 153);
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  text-align: center;
+}
+
+.item-card-hero {
+  width: 173px;
+  height: 91px;
+  box-sizing: border-box;
+  border: 1px solid rgb(38, 38, 38);
+  border-radius: 8px;
+  background: rgb(26, 26, 26);
+  width: 173px;
+  height: 91px;
+  padding-top: 16px;
+}
+
+.item-card-hero:nth-child(2) {
+  margin-left: 12px;
+}
+
+.item-card-hero:nth-child(3) {
+  margin-top: 12px;
+  width: 358px;
+  height: 91px;
+}
