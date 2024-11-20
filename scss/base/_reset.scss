@@ -25,7 +25,11 @@ body {
   @media screen and (min-width: 390px) {
     max-width: 1600px;
   }
+    @media screen and (min-width: 1440px) {
+    padding-left: 80px;
+  }
 }
+
 
 a {
   text-decoration: none;
@@ -56,4 +60,8 @@ h6,
 p {
   margin: 0;
   padding: 0;
+}
+
+li {
+  list-style: none;
 }

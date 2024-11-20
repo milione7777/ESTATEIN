@@ -1,6 +1,17 @@
 .featured-properties {
   margin: 0 auto;
   width: 390px;
+  @media screen and (min-width: 1440px) {
+    width: 1440px;
+    margin-top: 110px;
+  }
+}
+
+.feature-list {
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .title-featured {
@@ -9,6 +20,14 @@
   font-size: 28px;
   font-weight: 600;
   line-height: 150%;
+  @media screen and (min-width: 1440px) {
+    font-size: 38px;
+  }
+}
+
+.feature-img {
+  width: 68px;
+  height: 30px;
 }
 
 .subtitle {
@@ -19,6 +38,11 @@
   font-weight: 500;
   line-height: 150%;
   margin-top: 6px;
+  @media screen and (min-width: 1440px) {
+    font-size: 16px;
+    margin-top: 10px;
+    width: 975px;
+  }
 }
 
 .card-box {
@@ -29,6 +53,11 @@
   background: rgb(20, 20, 20);
   padding: 24px;
   margin-top: 40px;
+  @media screen and (min-width: 1440px) {
+    width: 414px;
+    height: 549px;
+    padding: 30px;
+  }
 }
 
 .img-home {
@@ -43,6 +72,10 @@
   font-weight: 600;
   line-height: 150%;
   margin-top: 16px;
+  @media screen and (min-width: 1440px) {
+    font-size: 20px;
+    margin-top: 20px;
+  }
 }
 
 .subtitle-card-box {
@@ -52,6 +85,11 @@
   line-height: 150%;
   margin-top: 2px;
   color: rgb(153, 153, 153);
+  @media screen and (min-width: 1440px) {
+    font-size: 16px;
+    width: 340px;
+    margin-top: 4px;
+  }
 }
 
 .link-subtitle-box {
@@ -61,6 +99,9 @@
   line-height: 150%;
   color: rgb(255, 255, 255);
   text-decoration: underline;
+  @media screen and (min-width: 1440px) {
+    font-size: 16px;
+  }
 }
 
 .description-list {
@@ -69,6 +110,34 @@
   column-gap: 6px;
   margin-top: 14px;
   margin-bottom: 20px;
+}
+
+.img-box {
+    background-image: url(/img/desktop-img/home-1-tablet.png.png);
+    width: 365px;
+    height: 255px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+
+.img-box_2 {
+  background-image: url(/img/desktop-img/home-2-tablet.png.png);
+  width: 365px;
+  height: 255px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+}
+.img-box_3 {
+  background-image: url(/img/desktop-img/home-1-mobile.png);
+  width: 310px;
+  height: 210px;
+  @media screen and (min-width: 1440px) {
+    background-image: url(/img/desktop-img/home-3-tablet.png);
+    width: 365px;
+    height: 255px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+  }
 }
 
 .description-item {
@@ -103,35 +172,63 @@
   line-height: 150%;
 }
 
+.card {
+  display: flex;
+  column-gap: 20px;
+}
+
+.img-house {
+  display: none;
+  @media screen and (min-width: 1440px) {
+    display: block;
+  }
+}
+
 .price-card {
   color: rgb(255, 255, 255);
   font-size: 18px;
   font-weight: 600;
   line-height: 150%;
+  @media screen and (min-width: 1440px) {
+    font-size: 20px;
+  }
 }
 
 .button-card-box {
+  width: 202px;
   border-radius: 8px;
   background: rgb(112, 59, 247);
   padding: 14px 20px;
-  margin-left: 70px;
+  margin-left: 30px;
   color: rgb(255, 255, 255);
   font-family: Urbanist;
   font-size: 14px;
   font-weight: 500;
   line-height: 150%;
   border: none;
+  @media screen and (min-width: 1440px) {
+    margin-left: 40px;
+    width: 228px;
+  }
 }
 
 .item-slider {
   display: flex;
   align-items: center;
+  @media screen and (min-width: 1440px) {
+    margin-left: auto;
+  }
 }
 
 .slider-container {
   display: flex;
   margin-top: 46px;
   column-gap: 47px;
+  @media screen and (min-width: 1440px) {
+    position: relative;
+    column-gap: 0;
+    margin-top: 56px;
+  }
 }
 
 .button-view_all {
@@ -146,6 +243,10 @@
   font-weight: 500;
   line-height: 150%;
   background: rgb(26, 26, 26);
+  @media screen and (min-width: 1440px) {
+    display: none;
+
+  }
 }
 
 .btn-slide {
@@ -155,17 +256,48 @@
   height: 44px;
   background-color: transparent;
   padding-top: 5px;
+    @media screen and (min-width: 1440px) {
+    margin-left: 10px;
+  }
 }
 
-.button-view_all::after {
+.button-view {
+  width: 155px;
+  height: 49px;
+  border: 1px solid rgb(38, 38, 38);
+  border-radius: 8px;
+  padding: 14px 20px;
+  color: rgb(255, 255, 255);
+  font-family: Urbanist;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  background: rgb(26, 26, 26);
+  display: none;
+  @media screen and (min-width: 1440px) {
+    display: block;
+  }
+}
+
+.btn-border::after {
   content: " ";
   display: block;
   width: 355px;
   height: 1px;
-  background-color: rgb(38, 38, 38);;
+  background-color: rgb(38, 38, 38);
   position: relative;
-  top: -50px;
-  right: 18px;
+  top: -55px;
+  right: 208px;
+  @media screen and (min-width: 1440px) {
+    width: 1280px;
+    right: 1190px;
+  }
+}
+
+.btn-view {
+  @media screen and (min-width: 1440px) {
+    margin-left: auto;
+  }
 }
 
 .counter-slider {
@@ -176,6 +308,11 @@
   font-weight: 500;
   line-height: 150%;
   color: rgb(153, 153, 153);
+  @media screen and (min-width: 1440px) {
+    position: absolute;
+    left: 0;
+    font-size: 16px;
+  }
 }
 
 .counter {

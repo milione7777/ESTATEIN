@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Estatein</title>
     <link rel="stylesheet" href="css/main.min.css" />
   </head>
   <body>
@@ -18,11 +18,19 @@
     </section>
     <header class="header">
       <div class="container header-container">
-        <img class="logo-header" src="./img/desktop-img/Logo-desktop.png" alt="logo" />
+        <img
+          class="logo-header"
+          src="./img/desktop-img/Logo-desktop.png"
+          alt="logo"
+        />
         <nav class="nav">
           <ul class="menu-list">
             <li class="logo-modal_header">
-              <img class="logo-header" src="./img/desktop-img/Logo-desktop.png" alt="logo" />
+              <img
+                class="logo-header"
+                src="./img/desktop-img/Logo-desktop.png"
+                alt="logo"
+              />
             </li>
             <li class="menu-item">
               <a class="menu-link" href="#">Home</a>
@@ -38,17 +46,20 @@
             </li>
           </ul>
         </nav>
+        <button class="contact">
+          <a class="text-contact" href="#">Contact Us</a>
+        </button>
         <div class="burger">
           <span></span>
         </div>
       </div>
     </header>
     <section class="hero">
-      <div class="container">
+      <li class="hero-item">
+        <div class="fon"></div>
+      </li>
+      <div class="container hero-container">
         <ul class="hero-list">
-          <li class="hero-item">
-            <img src="./img/desktop-img/hero-mobile.png" alt="fon" />
-          </li>
           <div class="border">
             <button type="button" class="border-item">
               <svg width="22" height="22">
@@ -65,12 +76,14 @@
               our listings to find the home that matches your dreams.
             </p>
           </li>
-          <li class="hero-item">
-            <button type="button" class="button-hero">Learn More</button>
-          </li>
-          <li class="hero-item">
-            <button type="button" class="btn-hero">Browse Properties</button>
-          </li>
+          <ul class="hero-btn">
+            <li class="hero-item">
+              <button type="button" class="button-hero">Learn More</button>
+            </li>
+            <li class="hero-item">
+              <button type="button" class="btn-hero">Browse Properties</button>
+            </li>
+          </ul>
         </ul>
         <ul class="card-hero">
           <li class="item-card-hero">
@@ -89,7 +102,7 @@
       </div>
     </section>
     <section class="card">
-      <div class="container">
+      <div class="container card-container">
         <ul class="card-list">
           <li class="card-item">
             <svg class="arrow-card" width="26" height="26">
@@ -142,7 +155,11 @@
       <div class="container">
         <ul class="feature-list">
           <li class="feature-item">
-            <img src="./img/desktop-img/stars.png" alt="stars" />
+            <img
+              class="feature-img"
+              src="./img/desktop-img/stars.png"
+              alt="stars"
+            />
             <p class="title-featured">Featured Properties</p>
           </li>
           <li class="feature-item">
@@ -152,51 +169,142 @@
               available through Estatein.
             </p>
           </li>
+          <li class="item-slider btn-view">
+            <button class="button-view">View All Properties</button>
+          </li>
           <li class="feature-item">
-            <ul class="card-box">
-              <li class="card-box_item">
-                <img
-                  class="img-home"
-                  src="./img/desktop-img/home3-desktop.png"
-                  alt="home"
-                />
-              </li>
-              <li class="card-box_item">
-                <p class="title-card-box">Rustic Retreat Cottage</p>
-                <p class="subtitle-card-box">
-                  An elegant 3-bedroom, 2.5-bathroom townhouse in a gated
-                  community...
-                  <a class="link-subtitle-box" href="#">Read More</a>
-                </p>
-              </li>
-              <ul class="description-list">
-                <li class="description-item">
-                  <svg width="20" height="20">
-                    <use href="./sptite/symbol-defs.svg#icon-bed"></use>
-                  </svg>
-                  <p class="description">4-Bedroom</p>
+            <ul class="card">
+              <ul class="card-box img-house">
+                <li class="card-box_item">
+                  <div class="img-box"></div>
                 </li>
-                <li class="description-item">
-                  <svg width="20" height="20">
-                    <use href="./sptite/symbol-defs.svg#icon-bath"></use>
-                  </svg>
-                  <p class="description">3-Bathroom</p>
+                <li class="card-box_item">
+                  <p class="title-card-box">Seaside Serenity Villa</p>
+                  <p class="subtitle-card-box">
+                    A stunning 4-bedroom, 3-bathroom villa in a peaceful
+                    suburban neighborhood...
+                    <a class="link-subtitle-box" href="#">Read More</a>
+                  </p>
                 </li>
-                <li class="description-item">
-                  <svg width="20" height="20">
-                    <use href="./sptite/symbol-defs.svg#icon-villa"></use>
-                  </svg>
-                  <p class="description">Villa</p>
-                </li>
+                <ul class="description-list">
+                  <li class="description-item">
+                    <svg width="20" height="20">
+                      <use href="./sptite/symbol-defs.svg#icon-bed"></use>
+                    </svg>
+                    <p class="description">4-Bedroom</p>
+                  </li>
+                  <li class="description-item">
+                    <svg width="20" height="20">
+                      <use href="./sptite/symbol-defs.svg#icon-bath"></use>
+                    </svg>
+                    <p class="description">3-Bathroom</p>
+                  </li>
+                  <li class="description-item">
+                    <svg width="20" height="20">
+                      <use href="./sptite/symbol-defs.svg#icon-villa"></use>
+                    </svg>
+                    <p class="description">Villa</p>
+                  </li>
+                </ul>
+                <ul class="buy-container">
+                  <li class="card-box_item">
+                    <p class="title-price-card">Price</p>
+                    <p class="price-card">$550,000</p>
+                  </li>
+                  <li class="card-box_item">
+                    <button class="button-card-box">
+                      View Property Details
+                    </button>
+                  </li>
+                </ul>
               </ul>
-              <ul class="buy-container">
+              <ul class="card-box img-house">
                 <li class="card-box_item">
-                  <p class="title-price-card">Price</p>
-                  <p class="price-card">$550,000</p>
+                  <div class="img-box_2"></div>
                 </li>
                 <li class="card-box_item">
-                  <button class="button-card-box">View Property Details</button>
+                  <p class="title-card-box">Metropolitan Haven</p>
+                  <p class="subtitle-card-box">
+                    A chic and fully-furnished 2-bedroom apartment with
+                    panoramic city views...
+                    <a class="link-subtitle-box" href="#">Read More</a>
+                  </p>
                 </li>
+                <ul class="description-list">
+                  <li class="description-item">
+                    <svg width="20" height="20">
+                      <use href="./sptite/symbol-defs.svg#icon-bed"></use>
+                    </svg>
+                    <p class="description">2-Bedroom</p>
+                  </li>
+                  <li class="description-item">
+                    <svg width="20" height="20">
+                      <use href="./sptite/symbol-defs.svg#icon-bath"></use>
+                    </svg>
+                    <p class="description">2-Bathroom</p>
+                  </li>
+                  <li class="description-item">
+                    <svg width="20" height="20">
+                      <use href="./sptite/symbol-defs.svg#icon-villa"></use>
+                    </svg>
+                    <p class="description">Villa</p>
+                  </li>
+                </ul>
+                <ul class="buy-container">
+                  <li class="card-box_item">
+                    <p class="title-price-card">Price</p>
+                    <p class="price-card">$550,000</p>
+                  </li>
+                  <li class="card-box_item">
+                    <button class="button-card-box">
+                      View Property Details
+                    </button>
+                  </li>
+                </ul>
+              </ul>
+              <ul class="card-box">
+                <li class="card-box_item">
+                  <div class="img-box_3"></div>
+                </li>
+                <li class="card-box_item">
+                  <p class="title-card-box">Rustic Retreat Cottage</p>
+                  <p class="subtitle-card-box">
+                    An elegant 3-bedroom, 2.5-bathroom townhouse in a gated
+                    community...
+                    <a class="link-subtitle-box" href="#">Read More</a>
+                  </p>
+                </li>
+                <ul class="description-list">
+                  <li class="description-item">
+                    <svg width="20" height="20">
+                      <use href="./sptite/symbol-defs.svg#icon-bed"></use>
+                    </svg>
+                    <p class="description">3-Bedroom</p>
+                  </li>
+                  <li class="description-item">
+                    <svg width="20" height="20">
+                      <use href="./sptite/symbol-defs.svg#icon-bath"></use>
+                    </svg>
+                    <p class="description">3-Bathroom</p>
+                  </li>
+                  <li class="description-item">
+                    <svg width="20" height="20">
+                      <use href="./sptite/symbol-defs.svg#icon-villa"></use>
+                    </svg>
+                    <p class="description">Villa</p>
+                  </li>
+                </ul>
+                <ul class="buy-container">
+                  <li class="card-box_item">
+                    <p class="title-price-card">Price</p>
+                    <p class="price-card">$550,000</p>
+                  </li>
+                  <li class="card-box_item">
+                    <button class="button-card-box">
+                      View Property Details
+                    </button>
+                  </li>
+                </ul>
               </ul>
             </ul>
           </li>
@@ -206,7 +314,7 @@
             <button class="button-view_all">View All Properties</button>
           </li>
           <li class="item-slider">
-            <button class="btn-slide">
+            <button class="btn-slide btn-border">
               <svg width="24" height="24">
                 <use href="./sptite/symbol-defs.svg#icon-arrow-left"></use>
               </svg>
@@ -224,15 +332,25 @@
     <section class="comments">
       <div class="container">
         <ul class="commetn-list">
-          <li class="comment-item">
-            <img src="./img/desktop-img/stars.png" alt="stars" />
-            <p class="title-comment">What Our Clients Say</p>
-            <p class="subtitle-comment">
-              Read the success stories and heartfelt testimonials from our
-              valued clients. Discover why they chose Estatein for their real
-              estate needs.
-            </p>
-          </li>
+          <ul class="comment-item position-title">
+            <li>
+              <img
+                class="feature-img"
+                src="./img/desktop-img/stars.png"
+                alt="stars"
+              />
+              <p class="title-comment">What Our Clients Say</p>
+              <p class="subtitle-comment">
+                Read the success stories and heartfelt testimonials from our
+                valued clients. Discover why they chose Estatein for their real
+                estate needs.
+              </p>
+            </li>
+            <li class="comment-item-btn">
+              <button class="button-view">View All Properties</button>
+            </li>
+          </ul>
+
           <li class="comment-item">
             <ul class="comment">
               <li class="comment-items">
@@ -286,6 +404,110 @@
                 </ul>
               </li>
             </ul>
+            <ul class="comment comment-tablet">
+              <li class="comment-items">
+                <img
+                  class="img-star"
+                  src="./img/desktop-img/StarContainer-decktop.png"
+                  alt="star"
+                />
+                <img
+                  class="img-star"
+                  src="./img/desktop-img/StarContainer-decktop.png"
+                  alt="star"
+                />
+                <img
+                  class="img-star"
+                  src="./img/desktop-img/StarContainer-decktop.png"
+                  alt="star"
+                />
+                <img
+                  class="img-star"
+                  src="./img/desktop-img/StarContainer-decktop.png"
+                  alt="star"
+                />
+                <img
+                  class="img-star"
+                  src="./img/desktop-img/StarContainer-decktop.png"
+                  alt="star"
+                />
+              </li>
+              <li class="comment-items">
+                <p class="title-comments">Efficient and Reliable</p>
+                <p class="subtitle-comments">
+                  Estatein provided us with top-notch service. They helped us
+                  sell our property quickly and at a great price. We couldn't be
+                  happier with the results.
+                </p>
+              </li>
+              <li class="comment-items">
+                <ul class="user">
+                  <li class="user-item">
+                    <img
+                      class="img-user"
+                      src="./img/desktop-img/Profile-2-desktop.png"
+                      alt="img"
+                    />
+                  </li>
+                  <li class="user-item">
+                    <p class="name-user">Emelie Thomson</p>
+                    <p class="location-user">USA, Florida</p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="comment comment-tablet">
+              <li class="comment-items">
+                <img
+                  class="img-star"
+                  src="./img/desktop-img/StarContainer-decktop.png"
+                  alt="star"
+                />
+                <img
+                  class="img-star"
+                  src="./img/desktop-img/StarContainer-decktop.png"
+                  alt="star"
+                />
+                <img
+                  class="img-star"
+                  src="./img/desktop-img/StarContainer-decktop.png"
+                  alt="star"
+                />
+                <img
+                  class="img-star"
+                  src="./img/desktop-img/StarContainer-decktop.png"
+                  alt="star"
+                />
+                <img
+                  class="img-star"
+                  src="./img/desktop-img/StarContainer-decktop.png"
+                  alt="star"
+                />
+              </li>
+              <li class="comment-items">
+                <p class="title-comments">Trusted Advisors</p>
+                <p class="subtitle-comments">
+                  The Estatein team guided us through the entire buying process.
+                  Their knowledge and commitment to our needs were impressive.
+                  Thank you for your support!
+                </p>
+              </li>
+              <li class="comment-items">
+                <ul class="user">
+                  <li class="user-item">
+                    <img
+                      class="img-user"
+                      src="./img/desktop-img/Profile-3-desktop.png"
+                      alt="img"
+                    />
+                  </li>
+                  <li class="user-item">
+                    <p class="name-user">John Mans</p>
+                    <p class="location-user">USA, Nevada</p>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </li>
         </ul>
         <ul class="slider-container slider-comment">
@@ -295,7 +517,7 @@
             </button>
           </li>
           <li class="item-slider">
-            <button class="btn-slide">
+            <button class="btn-slide btn-border">
               <svg width="24" height="24">
                 <use href="./sptite/symbol-defs.svg#icon-arrow-left"></use>
               </svg>
@@ -313,16 +535,25 @@
     <section class="frequently-asked-questions">
       <div class="container">
         <ul class="list-questions">
-          <li class="item-questions">
-            <img src="./img/desktop-img/stars.png" alt="star" />
-            <p class="title-comment">Frequently Asked Questions</p>
-            <p class="subtitle-questions">
-              Find answers to common questions about Estatein's services,
-              property listings, and the real estate process. We're here to
-              provide clarity and assist you every step of the way.
-            </p>
-          </li>
-          <li class="item-questions">
+          <ul class="position-title">
+            <li class="item-questions">
+              <img
+                class="feature-img"
+                src="./img/desktop-img/stars.png"
+                alt="star"
+              />
+              <p class="title-comment">Frequently Asked Questions</p>
+              <p class="subtitle-questions">
+                Find answers to common questions about Estatein's services,
+                property listings, and the real estate process. We're here to
+                provide clarity and assist you every step of the way.
+              </p>
+            </li>
+            <li class="btn-title-frequently">
+              <button class="button-view">View All FAQ’s</button>
+            </li>
+          </ul>
+          <li class="item-questions position-card-frequently">
             <ul class="box-questions">
               <li class="item-box-questions">
                 <p class="title-box">
@@ -337,6 +568,34 @@
                 <button type="button" class="btn-box">Read More</button>
               </li>
             </ul>
+            <ul class="box-questions comment-tablet">
+              <li class="item-box-questions">
+                <p class="title-box">
+                  What documents do I need to sell my property through Estatein?
+                </p>
+                <p class="subtitle-box">
+                  Find out about the necessary documentation for listing your
+                  property with us.
+                </p>
+              </li>
+              <li class="item-box-questions">
+                <button type="button" class="btn-box">Read More</button>
+              </li>
+            </ul>
+            <ul class="box-questions comment-tablet">
+              <li class="item-box-questions">
+                <p class="title-box margin-btn">
+                  How can I contact an Estatein agent?
+                </p>
+                <p class="subtitle-box">
+                  Discover the different ways you can get in touch with our
+                  experienced agents.
+                </p>
+              </li>
+              <li class="item-box-questions">
+                <button type="button" class="btn-box">Read More</button>
+              </li>
+            </ul>
           </li>
         </ul>
         <ul class="slider-container">
@@ -344,7 +603,7 @@
             <button class="button-view_all">View All FAQ’s</button>
           </li>
           <li class="item-slider">
-            <button class="btn-slide">
+            <button class="btn-slide btn-border">
               <svg width="24" height="24">
                 <use href="./sptite/symbol-defs.svg#icon-arrow-left"></use>
               </svg>
@@ -364,8 +623,6 @@
         <ul class="list-cta">
           <li class="item-cta">
             <p class="title-cta">Start Your Real Estate Journey Today</p>
-          </li>
-          <li class="item-cta">
             <p class="subtitle-cta">
               Your dream property is just a click away. Whether you're looking
               for a new home, a strategic investment, or expert real estate
@@ -375,14 +632,14 @@
               personalized assistance.
             </p>
           </li>
-          <li class="item-cta">
+          <li class="item-cta position-btn-cta">
             <button class="btn-cta" type="button">Explore Properties</button>
           </li>
         </ul>
       </div>
     </section>
     <section class="footer">
-      <div class="container">
+      <div class="container footer-position">
         <ul class="list-logo-footer">
           <li class="footer-item">
             <img
@@ -397,9 +654,6 @@
               type="email"
               placeholder="Enter Your Email"
             />
-            <svg class="icon-email" width="17" height="15">
-              <use href="./sptite/symbol-defsa.svg#icon-gmail"></use>
-            </svg>
             <a href="#" class="icon-telega">
               <svg width="20" height="20">
                 <use href="./sptite/symbol-defs.svg#icon-telegram"></use>
@@ -450,6 +704,7 @@
         </ul>
       </div>
       <ul class="subfooter">
+        <div class="container subfooter-position">
         <li class="item-network">
           <button class="network-svg">
             <svg width="20" height="20">
@@ -472,12 +727,11 @@
             </svg>
           </button>
         </li>
-        <li class="item-network">
+        <li class="item-network item-network_margin">
           <p class="all-rights">@2023 Estatein. All Rights Reserved.</p>
-        </li>
-        <li class="item-network">
           <p class="terms">Terms & Conditions</p>
         </li>
+        </div>
       </ul>
     </section>
     <script src="./js/close.js"></script>

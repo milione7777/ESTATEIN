@@ -2,6 +2,9 @@
   width: 390px;
   margin: 0 auto;
   margin-top: 70px;
+  @media screen and (min-width: 1440px) {
+    width: 1440px;
+  }
 }
 
 .subtitle-questions {
@@ -11,6 +14,20 @@
   font-weight: 500;
   line-height: 150%;
   width: 335px;
+  @media screen and (min-width: 1440px) {
+    font-size: 16px;
+    width: 910px;
+    margin-top: 10px;
+  }
+}
+
+.position-card-frequently {
+  display: flex;
+  column-gap: 20px;
+}
+
+.btn-title-frequently {
+  margin-left: auto;
 }
 
 .button-view_testimonials {
@@ -25,6 +42,9 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 150%;
+  @media screen and (min-width: 1440px) {
+    display: none;
+  }
 }
 
 .button-view_testimonials::after {
@@ -50,6 +70,12 @@
   border: 1px solid rgb(38, 38, 38);
   border-radius: 10px;
   background: rgb(20, 20, 20);
+  @media screen and (min-width: 1440px) {
+    margin-top: 66px;
+    padding: 40px;
+    width: 415px;
+    height: 282px;
+  }
 }
 
 .title-box {
@@ -58,6 +84,9 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 150%;
+  @media screen and (min-width: 1440px) {
+    font-size: 20px;
+  }
 }
 
 .subtitle-box {
@@ -68,6 +97,11 @@
   line-height: 150%;
   width: 275px;
   margin-top: 20px;
+  @media screen and (min-width: 1440px) {
+    margin-top: 24px;
+    width: 275px;
+    height: 48px;
+  }
 }
 
 .btn-box {
@@ -83,4 +117,13 @@
   line-height: 131%;
   height: 46px;
   background: rgb(26, 26, 26);
+  @media screen and (min-width: 1440px) {
+    margin-top: 25px;
+    width: 107px;
+    height: 46px;
+  }
+}
+
+.margin-btn {
+  margin-bottom: 53px;
 }

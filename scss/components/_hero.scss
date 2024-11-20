@@ -1,10 +1,41 @@
 .hero {
   width: 390px;
   margin: 0 auto;
+  @media screen and (min-width: 1440px) {
+    width: 1440px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
 
 .hero-list {
   margin-top: 40px;
+  @media screen and (min-width: 1440px) {
+    margin: 0;
+  }
+}
+
+.hero-container {
+  padding-right: 0;
+  @media screen and (min-width: 1440px) {
+    display: block;
+    flex-direction: row-reverse;
+  }
+}
+
+.fon {
+  background-image: url(/img/desktop-img/hero-mobile.png);
+  width: 358px;
+  height: 302px;
+  margin-left: 16px;
+  margin-top: 40px;
+  @media screen and (min-width: 1440px) {
+    margin: 0;
+    background-image: url(/img/desktop-img/hero-left.png);
+    width: 690px;
+    height: 622px;
+    margin-left: auto;
+  }
 }
 
 .border {
@@ -13,6 +44,10 @@
   width: 117px;
   height: 117px;
   background-image: url(/img/desktop-img/border-mobile.png);
+  @media screen and (min-width: 1440px) {
+    left: 580px;
+    top: 95px;
+  }
 }
 
 .border-item {
@@ -34,10 +69,15 @@
   margin-top: -55px;
   margin-bottom: 16px;
   color: rgb(255, 255, 255);
-  font-family: Urbanist;
   font-size: 28px;
   font-weight: 600;
   line-height: 120%;
+  @media screen and (min-width: 1440px) {
+    margin-top: 0;
+    font-size: 46px;
+    width: 600px;
+    margin-bottom: 20px;
+  }
 }
 
 .subtitle-hero {
@@ -47,6 +87,16 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 150%;
+  @media screen and (min-width: 1440px) {
+    font-size: 16px;
+    width: 605px;
+  }
+}
+
+.hero-btn {
+  @media screen and (min-width: 1440px) {
+    display: flex;
+  }
 }
 
 .button-hero {
@@ -62,6 +112,11 @@
   font-weight: 500;
   line-height: 150%;
   margin-bottom: 16px;
+  @media screen and (min-width: 1440px) {
+    width: 111px;
+    margin-top: 50px;
+    margin-right: 16px;
+  }
 }
 
 .btn-hero {
@@ -73,13 +128,23 @@
   font-family: Urbanist;
   font-size: 14px;
   font-weight: 500;
+  border: none;
   line-height: 150%;
+  @media screen and (min-width: 1440px) {
+    width: 151px;
+    margin-top: 50px;
+  }
 }
 
 .card-hero {
   display: flex;
   flex-wrap: wrap;
   margin-top: 40px;
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
 }
 
 .title-card-hero {
@@ -89,6 +154,10 @@
   font-weight: 700;
   line-height: 150%;
   text-align: center;
+  @media screen and (min-width: 1440px) {
+    font-size: 30px;
+    text-align-last: left;
+  }
 }
 
 .subtitle-card-hero {
@@ -98,6 +167,10 @@
   font-weight: 500;
   line-height: 150%;
   text-align: center;
+  @media screen and (min-width: 1440px) {
+    font-size: 16px;
+    text-align: left;
+  }
 }
 
 .item-card-hero {
@@ -110,14 +183,28 @@
   width: 173px;
   height: 91px;
   padding-top: 16px;
+  @media screen and (min-width: 1440px) {
+    width: 192px;
+    height: 99px;
+    padding-left: 20px;
+  }
 }
 
 .item-card-hero:nth-child(2) {
   margin-left: 12px;
+  @media screen and (min-width: 1440px) {
+    margin-left: 16px;
+  }
 }
 
 .item-card-hero:nth-child(3) {
   margin-top: 12px;
   width: 358px;
   height: 91px;
+  @media screen and (min-width: 1440px) {
+    margin-top: 0;
+    width: 192px;
+    height: 99px;
+    margin-left: 16px;
+  }
 }

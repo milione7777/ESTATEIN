@@ -7,6 +7,13 @@
   margin: 0 auto;
   column-gap: 6px;
   align-items: center;
+
+  @media screen and (min-width: 1440px) {
+    background-image: url(/img/desktop-img/Banner-1440.png);
+    width: 1440px;
+    height: 49px;
+    justify-content: center;
+  }
 }
 
 .title-banner {
@@ -16,6 +23,9 @@
   font-weight: 500;
   line-height: 150%;
   margin-left: 16px;
+  @media screen and (min-width: 1440px) {
+    font-size: 14px;
+  }
 }
 
 .link-banner {
@@ -25,7 +35,10 @@
   font-weight: 500;
   line-height: 150%;
   text-align: center;
-   text-decoration: underline;
+  text-decoration: underline;
+  @media screen and (min-width: 1440px) {
+    font-size: 14px;
+  }
 }
 
 .btn-close-banner {
@@ -38,4 +51,7 @@
   height: 26px;
   align-items: center;
   padding: 4px;
+  @media screen and (min-width: 1440px) {
+    right: 32px;
+  }
 }
