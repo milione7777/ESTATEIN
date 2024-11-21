@@ -24,14 +24,14 @@
 }
 
 .fon {
-  background-image: url(/img/desktop-img/hero-mobile.png);
+  background-image: url(../img/desktop-img/hero-mobile.png);
   width: 358px;
   height: 302px;
   margin-left: 16px;
   margin-top: 40px;
   @media screen and (min-width: 1440px) {
     margin: 0;
-    background-image: url(/img/desktop-img/hero-left.png);
+    background-image: url(../img/desktop-img/hero-left.png);
     width: 690px;
     height: 622px;
     margin-left: auto;
@@ -43,7 +43,7 @@
   top: -80px;
   width: 117px;
   height: 117px;
-  background-image: url(/img/desktop-img/border-mobile.png);
+  background-image: url(../img/desktop-img/border-mobile.png);
   @media screen and (min-width: 1440px) {
     left: 580px;
     top: 95px;

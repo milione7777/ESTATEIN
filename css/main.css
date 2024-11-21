@@ -120,7 +120,7 @@ li {
 }
 @media screen and (min-width: 1440px) {
   .banner {
-    background-image: url(/img/desktop-img/Banner-1440.png);
+    background-image: url(../img/desktop-img/Banner-1440.png);
     width: 1440px;
     height: 49px;
     justify-content: center;
@@ -128,7 +128,7 @@ li {
 }
 @media screen and (min-width: 1920px) {
   .banner {
-    background-image: url(/img/desktop-img/Banner-1920.png);
+    background-image: url(../img/desktop-img/Banner-1920.png);
     width: 1920px;
     height: 63px;
     justify-content: center;
@@ -447,7 +447,7 @@ li {
 }
 
 .fon {
-  background-image: url(/img/desktop-img/hero-mobile.png);
+  background-image: url(../img/desktop-img/hero-mobile.png);
   width: 358px;
   height: 302px;
   margin-left: 16px;
@@ -456,7 +456,7 @@ li {
 @media screen and (min-width: 1440px) {
   .fon {
     margin: 0;
-    background-image: url(/img/desktop-img/hero-left.png);
+    background-image: url(../img/desktop-img/hero-left.png);
     width: 690px;
     height: 622px;
     margin-left: auto;
@@ -468,7 +468,7 @@ li {
   top: -80px;
   width: 117px;
   height: 117px;
-  background-image: url(/img/desktop-img/border-mobile.png);
+  background-image: url(../img/desktop-img/border-mobile.png);
 }
 @media screen and (min-width: 1440px) {
   .border {
@@ -881,7 +881,7 @@ li {
 }
 
 .img-box {
-  background-image: url(/img/desktop-img/home-1-tablet.png.png);
+  background-image: url(../img/desktop-img/home-1-tablet.png.png);
   width: 365px;
   height: 255px;
   border-radius: 10px;
@@ -889,7 +889,7 @@ li {
 }
 
 .img-box_2 {
-  background-image: url(/img/desktop-img/home-2-tablet.png.png);
+  background-image: url(../img/desktop-img/home-2-tablet.png.png);
   width: 365px;
   height: 255px;
   border-radius: 10px;
@@ -897,13 +897,13 @@ li {
 }
 
 .img-box_3 {
-  background-image: url(/img/desktop-img/home-1-mobile.png);
+  background-image: url(../img/desktop-img/home-1-mobile.png);
   width: 310px;
   height: 210px;
 }
 @media screen and (min-width: 1440px) {
   .img-box_3 {
-    background-image: url(/img/desktop-img/home-3-tablet.png);
+    background-image: url(../img/desktop-img/home-3-tablet.png);
     width: 365px;
     height: 255px;
     border-radius: 10px;
@@ -1428,14 +1428,14 @@ li {
 
 .cta {
   margin: 0 auto;
-  background-image: url(/img/desktop-img/CTA.png);
+  background-image: url(../img/desktop-img/CTA.png);
   width: 389px;
   height: 395px;
   margin-top: 80px;
 }
 @media screen and (min-width: 1440px) {
   .cta {
-    background-image: url(/img/desktop-img/CTA-1440.png);
+    background-image: url(../img/desktop-img/CTA-1440.png);
     width: 1441px;
     height: 259px;
   }
