@@ -14,6 +14,12 @@
     height: 49px;
     justify-content: center;
   }
+  @media screen and (min-width: 1920px) {
+    background-image: url(/img/desktop-img/Banner-1920.png);
+    width: 1920px;
+    height: 63px;
+    justify-content: center;
+  }
 }
 
 .title-banner {

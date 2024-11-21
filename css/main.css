@@ -29,12 +29,22 @@ body {
 }
 @media screen and (min-width: 390px) {
   body {
-    max-width: 1600px;
+    max-width: 1920px;
   }
 }
 @media screen and (min-width: 1440px) {
   body {
     padding-left: 80px;
+  }
+}
+@media screen and (min-width: 0px) {
+  body {
+    padding-left: 16px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  body {
+    padding-left: 0px;
   }
 }
 
@@ -113,6 +123,14 @@ li {
     background-image: url(/img/desktop-img/Banner-1440.png);
     width: 1440px;
     height: 49px;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .banner {
+    background-image: url(/img/desktop-img/Banner-1920.png);
+    width: 1920px;
+    height: 63px;
     justify-content: center;
   }
 }
