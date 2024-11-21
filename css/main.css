@@ -109,7 +109,7 @@ li {
 
 .banner {
   position: relative;
-  background-image: url(/img/desktop-img/Banner-mobile.png);
+  background-image: url(../img/desktop-img/Banner-mobile.png);
   width: 390px;
   height: 78px;
   display: flex;
@@ -1715,13 +1715,17 @@ li {
   }
 }
 
-.item-network {
-  display: flex;
+@media screen and (min-width: 1440px) {
+  .item-network {
+    display: flex;
+  }
 }
 
-.subfooter-position {
-  display: flex;
-  flex-direction: row-reverse;
+@media screen and (min-width: 1440px) {
+  .subfooter-position {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
 
 .network-svg {

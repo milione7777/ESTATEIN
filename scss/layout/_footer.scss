@@ -182,12 +182,16 @@
 }
 
 .item-network {
-  display: flex;
+  @media screen and (min-width: 1440px) {
+    display: flex;
+  }
 }
 
 .subfooter-position {
-  display: flex;
-  flex-direction: row-reverse;
+  @media screen and (min-width: 1440px) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
 
 .network-svg {
